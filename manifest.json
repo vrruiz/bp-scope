@@ -1,0 +1,15 @@
+{
+    "name": "barrapunto.vrruiz",
+    "description": "Las noticias que te interesan",
+    "framework": "ubuntu-sdk-14.10",
+    "architecture": "armhf",
+    "title": "Barrapunto",
+    "hooks": {
+        "barrapunto": {
+            "scope": "barrapunto",
+            "apparmor": "scope-security.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Víctor R. Ruiz <victor.ruiz@canonical.com>"
+}
